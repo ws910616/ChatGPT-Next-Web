@@ -172,9 +172,10 @@ export function SideBarHeader(props: {
     <Fragment>
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          {title}
+          伦伟实业ChatGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>{subTitle}</div>
+          伦伟实业智能AI助手
         <div className={styles["sidebar-logo"] + " no-dark"}>{logo}</div>
       </div>
       {children}
